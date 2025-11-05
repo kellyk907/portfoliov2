@@ -1,0 +1,239 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Typography */
+h1 { font-size: 3rem; font-weight: 700; margin-bottom: 0.5rem; }
+h2 { font-size: 2.2rem; font-weight: 600; margin-bottom: 1rem; color: #2c3e50; }
+h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+p { margin-bottom: 1rem; }
+.lead { font-size: 1.3rem; margin: 1.5rem 0; }
+.tagline { font-style: italic; color: #27ae60; margin-bottom: 1rem; }
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  margin: 0.5rem 0.5rem 0 0;
+  transition: all 0.3s;
+}
+.btn-primary {
+  background: #27ae60;
+  color: white;
+}
+.btn-primary:hover {
+  background: #219653;
+  transform: translateY(-2px);
+}
+.btn-secondary {
+  background: transparent;
+  color: #27ae60;
+  border: 2px solid #27ae60;
+}
+.btn-secondary:hover {
+  background: #27ae60;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+  color: #2c3e50;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+.hero h1 { color: #1a5d38; }
+.hero-buttons { margin-top: 2rem; }
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+}
+.bg-light {
+  background: #f8f9fa;
+}
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* About */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.about-text ul {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+.about-text li {
+  margin-bottom: 0.5rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.skills span {
+  background: #27ae60;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.project-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+}
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.project-card h3 {
+  padding: 1rem 1.5rem 0.5rem;
+  color: #2c3e50;
+}
+.project-card p {
+  padding: 0 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+.project-links {
+  padding: 0 1.5rem 1rem;
+  font-size: 0.95rem;
+}
+.project-links a {
+  font-weight: 600;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1.5rem 1.5rem;
+}
+.tags span {
+  background: #e0f2e9;
+  color: #1a5d38;
+  padding: 0.3rem 0.7rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+/* Testimonial */
+.testimonial {
+  background: #27ae60;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.testimonial blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+}
+.author {
+  font-weight: 600;
+}
+
+/* Roles */
+.roles-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 2rem auto 0;
+}
+.roles-list li {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+/* CTA Final */
+.cta-final {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.cta-final h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a8e6cf;
+}
+.cta-final p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: #aaa;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #27ae60;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  h1 { font-size: 2.4rem; }
+  .hero { padding: 4rem 1rem; }
+}
