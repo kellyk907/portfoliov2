@@ -42,7 +42,7 @@ a:hover { text-decoration: underline; }
   transition: all 0.3s;
 }
 .btn-primary {
-  background: ##FF66C4;
+  background: #FF66C4;
   color: white;
 }
 .btn-primary:hover {
