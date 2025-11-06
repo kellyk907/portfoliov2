@@ -42,20 +42,20 @@ a:hover { text-decoration: underline; }
   transition: all 0.3s;
 }
 .btn-primary {
-  background: #27ae60;
+  background: ##FF66C4;
   color: white;
 }
 .btn-primary:hover {
-  background: #219653;
+  background: #fdd077;
   transform: translateY(-2px);
 }
 .btn-secondary {
   background: transparent;
-  color: #27ae60;
+  color: #fdd077;
   border: 2px solid #27ae60;
 }
 .btn-secondary:hover {
-  background: #27ae60;
+  background: #fdd077;
   color: white;
 }
 
