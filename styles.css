@@ -62,7 +62,7 @@ a:hover { text-decoration: underline; }
 /* Hero */
 .hero {
   background: linear-gradient(135deg, #ff66c4, #ffdd59);
-  color: #2c3e50;
+  color: #000;
   text-align: center;
   padding: 6rem 1rem;
 }
@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
   padding: 4rem 0;
 }
 .bg-light {
-  background: #ffbd59;
+  background: #ffde59;
 }
 .section-intro {
   text-align: center;
@@ -135,7 +135,7 @@ a:hover { text-decoration: underline; }
 }
 .project-card h3 {
   padding: 1rem 1.5rem 0.5rem;
-  color: #2c3e50;
+  color: #000;
 }
 .project-card p {
   padding: 0 1.5rem;
@@ -165,7 +165,7 @@ a:hover { text-decoration: underline; }
 
 /* Testimonial */
 .testimonial {
-  background: #27ae60;
+  background: #ff66c4;
   color: white;
   text-align: center;
   padding: 4rem 1rem;
