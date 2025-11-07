@@ -46,13 +46,13 @@ a:hover { text-decoration: underline; }
   color: white;
 }
 .btn-primary:hover {
-  background: #ffde59;
+  background: #ff66c4;
   transform: translateY(-2px);
 }
 .btn-secondary {
   background: transparent;
-  color: #ffbd59;
-  border: 2px solid #ffde59;
+  color: #ffccc4;
+  border: 2px solid #ffccc4;
 }
 .btn-secondary:hover {
   background: #fdd077;
@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
   padding: 4rem 0;
 }
 .bg-light {
-  background: #f8f9fa;
+  background: #ffbd59;
 }
 .section-intro {
   text-align: center;
@@ -105,7 +105,7 @@ a:hover { text-decoration: underline; }
   margin-top: 1rem;
 }
 .skills span {
-  background: #27ae60;
+  background: #ff66c4;
   color: white;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
