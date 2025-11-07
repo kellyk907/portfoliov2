@@ -20,7 +20,7 @@ body {
 
 /* Typography */
 h1 { font-size: 3rem; font-weight: 700; margin-bottom: 0.5rem; }
-h2 { font-size: 2.2rem; font-weight: 600; margin-bottom: 1rem; color: #2c3e50; }
+h2 { font-size: 2.2rem; font-weight: 600; margin-bottom: 1rem; color: #000; }
 h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
 p { margin-bottom: 1rem; }
 .lead { font-size: 1.3rem; margin: 1.5rem 0; }
@@ -46,13 +46,13 @@ a:hover { text-decoration: underline; }
   color: white;
 }
 .btn-primary:hover {
-  background: #fdd077;
+  background: #ffde59;
   transform: translateY(-2px);
 }
 .btn-secondary {
   background: transparent;
-  color: #fdd077;
-  border: 2px solid #27ae60;
+  color: #ffbd59;
+  border: 2px solid #ffde59;
 }
 .btn-secondary:hover {
   background: #fdd077;
@@ -219,7 +219,7 @@ a:hover { text-decoration: underline; }
 
 /* Footer */
 footer {
-  background: #1a1a1a;
+  background: #ffbd59;
   color: #000;
   text-align: center;
   padding: 2rem 1rem;
