@@ -8,7 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.7;
-  color: #333;
+  color: #000;
   background: #fff;
 }
 
@@ -27,7 +27,7 @@ p { margin-bottom: 1rem; }
 .tagline { font-style: italic; color: #27ae60; margin-bottom: 1rem; }
 
 a {
-  color: #2980b9;
+  color:#000; 
   text-decoration: none;
 }
 a:hover { text-decoration: underline; }
@@ -66,7 +66,7 @@ a:hover { text-decoration: underline; }
   text-align: center;
   padding: 6rem 1rem;
 }
-.hero h1 { color: #1a5d38; }
+.hero h1 { color: #000; }
 .hero-buttons { margin-top: 2rem; }
 
 /* Sections */
@@ -81,7 +81,7 @@ a:hover { text-decoration: underline; }
   max-width: 700px;
   margin: 0 auto 3rem;
   font-size: 1.1rem;
-  color: #555;
+  color: #000;
 }
 
 /* About */
@@ -140,7 +140,7 @@ a:hover { text-decoration: underline; }
 .project-card p {
   padding: 0 1.5rem;
   font-size: 0.95rem;
-  color: #555;
+  color: #000;
 }
 .project-links {
   padding: 0 1.5rem 1rem;
@@ -209,7 +209,7 @@ a:hover { text-decoration: underline; }
 .cta-final h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #a8e6cf;
+  color: #000;
 }
 .cta-final p {
   max-width: 600px;
@@ -220,13 +220,13 @@ a:hover { text-decoration: underline; }
 /* Footer */
 footer {
   background: #1a1a1a;
-  color: #aaa;
+  color: #000;
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.9rem;
 }
 footer a {
-  color: #fff7ad;
+  color: #ff66c4;
 }
 
 /* Responsive */
