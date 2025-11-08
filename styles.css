@@ -50,9 +50,8 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
 }
 .btn-secondary {
-  background: transparent;
   color: #c88c54;
-  border: 2px solid #734040;
+  border: 2px solid #c88c54;
 }
 .btn-secondary:hover {
   background:#d9ab95;
