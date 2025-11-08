@@ -73,7 +73,7 @@ a:hover { text-decoration: underline; }
   padding: 4rem 0;
 }
 .bg-light {
-  background: #D9AB95;
+  background: #c88684;
 }
 .section-intro {
   text-align: center;
@@ -200,8 +200,8 @@ a:hover { text-decoration: underline; }
 
 /* CTA Final */
 .cta-final {
-  background: #D9AB95;
-  color: #c7c3ba;
+  background: #gf3460;
+  color: #363636;
   text-align: center;
   padding: 4rem 1rem;
 }
@@ -225,7 +225,7 @@ footer {
   font-size: 0.9rem;
 }
 footer a {
-  color: #6a757f;
+  color: #363636;
 }
 
 /* Responsive */
