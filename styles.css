@@ -69,8 +69,9 @@ a:hover { text-decoration: underline; }
 .hero-buttons { margin-top: 2rem; }
 .hero img {
   width: 60%;
-  height: 70px;
+  height: 90px;
   object-fit: cover;
+  justify-content: flex-start;   /* push everything to the left edge */
 }
 /* Sections */
 .section {
