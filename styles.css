@@ -209,7 +209,7 @@ a:hover { text-decoration: underline; }
 .cta-final h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #000;
+  color: #333;
 }
 .cta-final p {
   max-width: 600px;
@@ -219,8 +219,8 @@ a:hover { text-decoration: underline; }
 
 /* Footer */
 footer {
-  background: #ffbd59;
-  color: #000;
+  background: #FED2A0;
+  color: #333;
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.9rem;
