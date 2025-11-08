@@ -42,21 +42,21 @@ a:hover { text-decoration: underline; }
   transition: all 0.3s;
 }
 .btn-primary {
-  background:#c88684;
+  background:#gf3460;
   color: #734040;
 }
 .btn-primary:hover {
   background:#gf3460;
   transform: translateY(-2px);
 }
-.btn-secondary {
+/*.btn-secondary {
   color: #gf3460;
   border: 2px solid #gf3460;
 }
 .btn-secondary:hover {
   background:#C88684;
   color: #GF3460;
-}
+} */
 
 /* Hero */
 .hero {
