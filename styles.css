@@ -42,16 +42,16 @@ a:hover { text-decoration: underline; }
   transition: all 0.3s;
 }
 .btn-primary {
-  background:c88684;
+  background:#c88684;
   color: #734040;
 }
 .btn-primary:hover {
-  background: #c88c54;
+  background:#gf3460;
   transform: translateY(-2px);
 }
 .btn-secondary {
-  color: #c88c54;
-  border: 2px solid #c88c54;
+  color: #gf3460;
+  border: 2px solid #gf3460;
 }
 .btn-secondary:hover {
   background:#d9ab95;
