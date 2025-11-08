@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
   margin-top: 1rem;
 }
 .skills span {
-  background: #c88c54;
+  background: #c88684;
   color: #363636;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
@@ -225,7 +225,7 @@ footer {
   font-size: 0.9rem;
 }
 footer a {
-  color: #363636;
+  color: #c88c54;
 }
 
 /* Responsive */
