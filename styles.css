@@ -67,7 +67,11 @@ a:hover { text-decoration: underline; }
 }
 .hero h1 { color: #363636; }
 .hero-buttons { margin-top: 2rem; }
-
+.hero img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
 /* Sections */
 .section {
   padding: 4rem 0;
