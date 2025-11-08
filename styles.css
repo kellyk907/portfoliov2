@@ -46,7 +46,7 @@ a:hover { text-decoration: underline; }
   color: #734040;
 }
 .btn-primary:hover {
-  background: #734040;
+  background: #c88c54;
   transform: translateY(-2px);
 }
 .btn-secondary {
@@ -55,7 +55,7 @@ a:hover { text-decoration: underline; }
   border: 2px solid #734040;
 }
 .btn-secondary:hover {
-  background:#734040;
+  background:#d9ab95;
   color: black;
 }
 
