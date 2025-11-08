@@ -68,7 +68,7 @@ a:hover { text-decoration: underline; }
 .hero h1 { color: #363636; }
 .hero-buttons { margin-top: 2rem; }
 .hero img {
-  width: 5%;
+  width: 60%;
   height: 70px;
   object-fit: cover;
 }
