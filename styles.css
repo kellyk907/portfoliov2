@@ -68,8 +68,8 @@ a:hover { text-decoration: underline; }
 .hero h1 { color: #363636; }
 .hero-buttons { margin-top: 2rem; }
 .hero img {
-  width: 80%;
-  height: 90px;
+  width: 5%;
+  height: 70px;
   object-fit: cover;
 }
 /* Sections */
