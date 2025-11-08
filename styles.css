@@ -8,7 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.7;
-  color: #333;
+  color: #1f3c4d;
   background: #fff;
 }
 
@@ -20,14 +20,14 @@ body {
 
 /* Typography */
 h1 { font-size: 3rem; font-weight: 700; margin-bottom: 0.5rem; }
-h2 { font-size: 2.2rem; font-weight: 600; margin-bottom: 1rem; color: #000; }
+h2 { font-size: 2.2rem; font-weight: 600; margin-bottom: 1rem; color:#1f3c4d; }
 h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
 p { margin-bottom: 1rem; }
 .lead { font-size: 1.3rem; margin: 1.5rem 0; }
-.tagline { font-style: italic; color: #333; margin-bottom: 1rem; }
+.tagline { font-style: italic; color: #1f3c4d; margin-bottom: 1rem; }
 
 a {
-  color:#000; 
+  color:#1f3c4d; 
   text-decoration: none;
 }
 a:hover { text-decoration: underline; }
@@ -52,7 +52,7 @@ a:hover { text-decoration: underline; }
 .btn-secondary {
   background: transparent;
   color: #ff66c4;
-  border: 2px solid #333;
+  border: 2px solid #1f3c4d;
 }
 .btn-secondary:hover {
   background: #ff66c4;
@@ -62,7 +62,7 @@ a:hover { text-decoration: underline; }
 /* Hero */
 .hero {
   background: linear-gradient(135deg, #ff66c4, #ffdd59);
-  color: #000;
+  color: #1f3c4d;
   text-align: center;
   padding: 6rem 1rem;
 }
@@ -81,7 +81,7 @@ a:hover { text-decoration: underline; }
   max-width: 700px;
   margin: 0 auto 3rem;
   font-size: 1.1rem;
-  color: #000;
+  color: #1f3c4d;
 }
 
 /* About */
@@ -135,12 +135,12 @@ a:hover { text-decoration: underline; }
 }
 .project-card h3 {
   padding: 1rem 1.5rem 0.5rem;
-  color: #000;
+  color: #1f3c4d;
 }
 .project-card p {
   padding: 0 1.5rem;
   font-size: 0.95rem;
-  color: #000;
+  color: #1f3c4d;
 }
 .project-links {
   padding: 0 1.5rem 1rem;
@@ -157,7 +157,7 @@ a:hover { text-decoration: underline; }
 }
 .tags span {
   background: #ff64c4;
-  color:#000;
+  color:#1f3c4d;
   padding: 0.3rem 0.7rem;
   border-radius: 15px;
   font-size: 0.8rem;
@@ -209,7 +209,7 @@ a:hover { text-decoration: underline; }
 .cta-final h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #1f3c4d;
 }
 .cta-final p {
   max-width: 600px;
@@ -220,7 +220,7 @@ a:hover { text-decoration: underline; }
 /* Footer */
 footer {
   background: #FED2A0;
-  color: #333;
+  color: #1f3c4d;
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.9rem;
