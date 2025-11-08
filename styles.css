@@ -42,20 +42,20 @@ a:hover { text-decoration: underline; }
   transition: all 0.3s;
 }
 .btn-primary {
-  background: #C88684;
-  color: white;
+  background: #734040;
+  color: #734040;
 }
 .btn-primary:hover {
-  background: #C88684;
+  background: #734040;
   transform: translateY(-2px);
 }
 .btn-secondary {
   background: transparent;
-  color: #C88684;
-  border: 2px solid #D9AB95;
+  color: #734040;
+  border: 2px solid #734040;
 }
 .btn-secondary:hover {
-  background:#C88684;
+  background:#734040;
   color: black;
 }
 
@@ -201,7 +201,7 @@ a:hover { text-decoration: underline; }
 
 /* CTA Final */
 .cta-final {
-  background: D9AB95;
+  background: #D9AB95;
   color: #c7c3ba;
   text-align: center;
   padding: 4rem 1rem;
