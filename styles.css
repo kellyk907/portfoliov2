@@ -156,8 +156,8 @@ a:hover { text-decoration: underline; }
   padding: 0 1.5rem 1.5rem;
 }
 .tags span {
-  background: #e0f2e9;
-  color: #1a5d38;
+  background: #ff64c4;
+  color:#000;
   padding: 0.3rem 0.7rem;
   border-radius: 15px;
   font-size: 0.8rem;
