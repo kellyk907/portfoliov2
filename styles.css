@@ -61,12 +61,12 @@ a:hover { text-decoration: underline; }
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #ff66c4, #ffdd59);
+  background: linear-gradient(135deg, #A07C6F, #C7C3BA, #7C6F6A,#75888A);
   color: #1f3c4d;
   text-align: center;
   padding: 6rem 1rem;
 }
-.hero h1 { color: #000; }
+.hero h1 { color: #1f3c4d; }
 .hero-buttons { margin-top: 2rem; }
 
 /* Sections */
@@ -74,7 +74,7 @@ a:hover { text-decoration: underline; }
   padding: 4rem 0;
 }
 .bg-light {
-  background: #ffde59;
+  background: #c18366;
 }
 .section-intro {
   text-align: center;
@@ -105,7 +105,7 @@ a:hover { text-decoration: underline; }
   margin-top: 1rem;
 }
 .skills span {
-  background: #ff66c4;
+  background: #c18366;
   color: white;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
@@ -156,7 +156,7 @@ a:hover { text-decoration: underline; }
   padding: 0 1.5rem 1.5rem;
 }
 .tags span {
-  background: #ff64c4;
+  background: #a07c6f;
   color:#1f3c4d;
   padding: 0.3rem 0.7rem;
   border-radius: 15px;
@@ -165,7 +165,7 @@ a:hover { text-decoration: underline; }
 
 /* Testimonial */
 .testimonial {
-  background: #ff66c4;
+  background: #7c6f6a;
   color: white;
   text-align: center;
   padding: 4rem 1rem;
@@ -201,8 +201,8 @@ a:hover { text-decoration: underline; }
 
 /* CTA Final */
 .cta-final {
-  background: #ffde59;
-  color: white;
+  background: #75888a;
+  color: #c7c3ba;
   text-align: center;
   padding: 4rem 1rem;
 }
@@ -219,14 +219,14 @@ a:hover { text-decoration: underline; }
 
 /* Footer */
 footer {
-  background: #FED2A0;
+  background: #734040;
   color: #1f3c4d;
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.9rem;
 }
 footer a {
-  color: #ff66c4;
+  color: #6a757f;
 }
 
 /* Responsive */
