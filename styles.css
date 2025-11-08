@@ -275,13 +275,4 @@ footer a {
     justify-content: flex-start;   /* push everything to the left edge */
   }
 
-  .hero header {
-    order: 1;                      /* photo first */
-  }
 
-  .hero .hero-content {
-    order: 2;                      /* text second */
-    text-align: left;              /* left-align the name/tagline */
-    flex: 1;                       /* take remaining space */
-  }
-}
